@@ -346,3 +346,454 @@ Memory consumption went from 111.1 MB to 110.4 MB.
 Total: 4.429167 ms (FindLiveObjects: 0.244292 ms CreateObjectMapping: 0.075542 ms MarkObjects: 3.558708 ms  DeleteObjects: 0.550458 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1031.171552 seconds.
+  path: Assets/Pure Poly
+  artifactKey: Guid(898ae83296c26494d8381eb9986dd899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly using Guid(898ae83296c26494d8381eb9986dd899) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dd2d465b4c85607ebd5915a01f72b4f') in 0.001148292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.053474 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack
+  artifactKey: Guid(9fc24a2a013c2984f847817c4da2614b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack using Guid(9fc24a2a013c2984f847817c4da2614b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4255e4c1c9793cf81812f969b1593c40') in 0.000286291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.994961 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs
+  artifactKey: Guid(33d9da17d5975244db32a765fa368621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs using Guid(33d9da17d5975244db32a765fa368621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce781fcfc4cb52193467866b8777a05a') in 0.000272417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.769052 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands
+  artifactKey: Guid(d29fdd3aee8c6444490dbdb47bf7572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands using Guid(d29fdd3aee8c6444490dbdb47bf7572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25fa517eee73d90534a96e4d40d7063f') in 0.000282916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.095707 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props
+  artifactKey: Guid(0081deaf6c9a27845aa4bcc90ed58118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props using Guid(0081deaf6c9a27845aa4bcc90ed58118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34de449903b025d930f9629b5e48e9be') in 0.000330125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052336 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_12_Left.prefab
+  artifactKey: Guid(f90a8d8bdfb5df64abe34101e5cc6318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_12_Left.prefab using Guid(f90a8d8bdfb5df64abe34101e5cc6318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f998d8ae6dd3dd9ecdd117149cc4f01a') in 0.053310291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_14.prefab
+  artifactKey: Guid(3c6e189b778fd2f40a6ff6afec84b5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_14.prefab using Guid(3c6e189b778fd2f40a6ff6afec84b5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e0142d9ab880f4428eeb8689e67ac4d') in 0.003586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Well_11.prefab
+  artifactKey: Guid(9d8b9b2824da1ba4686c66b8b4798472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Well_11.prefab using Guid(9d8b9b2824da1ba4686c66b8b4798472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92ce7acd410ffa131bad23d70b75f679') in 0.003878875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stairs_Stone_Brown_06.prefab
+  artifactKey: Guid(9d1e268b7f7038148adb19695f1a3135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stairs_Stone_Brown_06.prefab using Guid(9d1e268b7f7038148adb19695f1a3135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a589139a4bd2e58b2ac109b6efe9cb13') in 0.002824042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stone_Gate_01.prefab
+  artifactKey: Guid(b782d799229e43c478a6fae31581b484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stone_Gate_01.prefab using Guid(b782d799229e43c478a6fae31581b484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f054f2272469d9ed1e1a479a7b3bb2f8') in 0.003430625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stairs_Stone_Brown_03.prefab
+  artifactKey: Guid(080d733d74ef1ef40b536f9cd2853352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stairs_Stone_Brown_03.prefab using Guid(080d733d74ef1ef40b536f9cd2853352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50bf8171e04e6d6eeca5b920909901f3') in 0.002979584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Wooden_Ladder_05.prefab
+  artifactKey: Guid(c939aeff7d4f24a4c93d7c71add2f1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Wooden_Ladder_05.prefab using Guid(c939aeff7d4f24a4c93d7c71add2f1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5c8161601ca0c3e0605ed0d3401021d') in 0.004749125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Fountain_01.prefab
+  artifactKey: Guid(d4f28a9dc6edfaf4195f362c242d4bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Fountain_01.prefab using Guid(d4f28a9dc6edfaf4195f362c242d4bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f036dd7d13cbff26b7d2618c626ae725') in 0.003743417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stairs_Stone_Brown_04.prefab
+  artifactKey: Guid(81fc2e5dd0eac8f40b6ab4b6d8f48eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stairs_Stone_Brown_04.prefab using Guid(81fc2e5dd0eac8f40b6ab4b6d8f48eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c0ed75f7966e7de4fccf4e130167f1b') in 0.00343825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Wooden_Ladder_02.prefab
+  artifactKey: Guid(8482f69afab55654692d8f83d2fa5d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Wooden_Ladder_02.prefab using Guid(8482f69afab55654692d8f83d2fa5d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa18c1d4d981e2c0514014b732129888') in 0.004112416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_15_Left.prefab
+  artifactKey: Guid(64b9d4c6eaee74d428f5b61598195575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_15_Left.prefab using Guid(64b9d4c6eaee74d428f5b61598195575) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7ea2c3cfec9976b9e15e706b9b81701') in 0.003399625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bucket_02.prefab
+  artifactKey: Guid(3faaf8245f4f9444cac27eab1f2bd287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bucket_02.prefab using Guid(3faaf8245f4f9444cac27eab1f2bd287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8e09c0d2d590eb0dd69c6ecb0e218a8') in 0.003575208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Small_Fence_01.prefab
+  artifactKey: Guid(8a071e4a951ddf1419ec8d137b132892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Small_Fence_01.prefab using Guid(8a071e4a951ddf1419ec8d137b132892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2423f15b7d03ba111724b3982a996767') in 0.0041205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stairs_Stone_Brown_05.prefab
+  artifactKey: Guid(7d29731889901ed49980727779be143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stairs_Stone_Brown_05.prefab using Guid(7d29731889901ed49980727779be143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a19739b13a6b0970e0b1f339c2d2ea4') in 0.003938375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_13_Right.prefab
+  artifactKey: Guid(2377432968649684ba2adda617316353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_13_Right.prefab using Guid(2377432968649684ba2adda617316353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5806d918c3a2fd7f3790b2f5cd9f726e') in 0.004020375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Small_Fence_02.prefab
+  artifactKey: Guid(13928e2c2111e3b41a6b08a37699b6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Small_Fence_02.prefab using Guid(13928e2c2111e3b41a6b08a37699b6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a8fc0482c0571c4aa1912e30f7fbdcc') in 0.003541333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Wooden_Ladder_04.prefab
+  artifactKey: Guid(323b645c4fc98d64ab4a6a684f69270b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Wooden_Ladder_04.prefab using Guid(323b645c4fc98d64ab4a6a684f69270b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85bef968fe63e9a1b042de235ca7e88d') in 0.003497542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Well_12.prefab
+  artifactKey: Guid(842447c5e39b35245aeca4bb03a20c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Well_12.prefab using Guid(842447c5e39b35245aeca4bb03a20c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76eaaa8cd78741e063970ca0b93141ca') in 0.004780834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Well_08.prefab
+  artifactKey: Guid(7c31a2bf0d8c2114e9318f8c239b9e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Well_08.prefab using Guid(7c31a2bf0d8c2114e9318f8c239b9e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ee9cd0d2b9b91ba567385d127dde5e3') in 0.004109291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Campfire_02.prefab
+  artifactKey: Guid(dd33637a6e116fc45b050ee641152b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Campfire_02.prefab using Guid(dd33637a6e116fc45b050ee641152b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0e846d6d3b97ddddc3e77cbee6ec204') in 0.00407325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Well_10.prefab
+  artifactKey: Guid(4241fd9cd64ed5f4eac51404d5ce7784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Well_10.prefab using Guid(4241fd9cd64ed5f4eac51404d5ce7784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a7f6976db32a046e83e56d89e0bd154') in 0.004772291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_15_Middle.prefab
+  artifactKey: Guid(7a8192dc14367cf46bddd2d8ab90b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_15_Middle.prefab using Guid(7a8192dc14367cf46bddd2d8ab90b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8c2e7387e0d9025a587d36f9fdad8f8') in 0.003436542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Fountain_02.prefab
+  artifactKey: Guid(57b694638abcfcb4b86a7d216d5b9b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Fountain_02.prefab using Guid(57b694638abcfcb4b86a7d216d5b9b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceedfc0c05016ccb735bba3b5f733c6b') in 0.004147583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Small_Fence_04.prefab
+  artifactKey: Guid(198b05e29e4974f43862ad278954d834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Small_Fence_04.prefab using Guid(198b05e29e4974f43862ad278954d834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a0ac23ae10e3fb889adc5e90f01e30e') in 0.003489917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Small_Fence_03.prefab
+  artifactKey: Guid(3f30f21610768464faa14de56ab5d981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Small_Fence_03.prefab using Guid(3f30f21610768464faa14de56ab5d981) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c591fe851892aa626497024d37cf7da') in 0.003030292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_13_Middle.prefab
+  artifactKey: Guid(b1256d618a0c19b4899fbb2e7154bd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bridge_13_Middle.prefab using Guid(b1256d618a0c19b4899fbb2e7154bd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c56c37c233c498ec139f431b6747263') in 0.003781041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stairs_Stone_Brown_02.prefab
+  artifactKey: Guid(25712ca9398e3e142aa6da49254a28e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Stairs_Stone_Brown_02.prefab using Guid(25712ca9398e3e142aa6da49254a28e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3e9e13f79dcf2b07f2d81bcbf3bc886') in 0.005508333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bucket_03.prefab
+  artifactKey: Guid(54f652952d7285a43b82fdedb74f159c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Flying Islands/Props/PP_Bucket_03.prefab using Guid(54f652952d7285a43b82fdedb74f159c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7de3e4258414e5b113fa347088ca0171') in 0.003497833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.205053 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Forest/Other Props/PP_Fence_Door_02.prefab
+  artifactKey: Guid(3e0b5a39c83c59045bd19f928fe701fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Forest/Other Props/PP_Fence_Door_02.prefab using Guid(3e0b5a39c83c59045bd19f928fe701fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39834b9d059a2769a37681fca595cf7e') in 0.009018458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Forest/Other Props/PP_Fence_Wooden_01.prefab
+  artifactKey: Guid(7cd2a016235f2864096d9b428cddc5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Forest/Other Props/PP_Fence_Wooden_01.prefab using Guid(7cd2a016235f2864096d9b428cddc5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85ecd4f5ce9483d3d0e639ef9ad54b06') in 0.003498292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Forest/Other Props/PP_Fence_Wooden_05.prefab
+  artifactKey: Guid(d19778260633db041b8bf3348790e84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Forest/Other Props/PP_Fence_Wooden_05.prefab using Guid(d19778260633db041b8bf3348790e84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6894cf312737aa3506e9fd3e6de40ea6') in 0.002999166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Forest/Other Props/PP_Fence_Wooden_02.prefab
+  artifactKey: Guid(f5a17fc1d71552c4fb5bdf30e14eb02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Forest/Other Props/PP_Fence_Wooden_02.prefab using Guid(f5a17fc1d71552c4fb5bdf30e14eb02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a91f0f6423c65b7c8a762fb1795829fa') in 0.004399417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Forest/Other Props/PP_Fence_Wooden_03.prefab
+  artifactKey: Guid(8e01a27cfe534014eb0ef59a8ef17613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Forest/Other Props/PP_Fence_Wooden_03.prefab using Guid(8e01a27cfe534014eb0ef59a8ef17613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5380cfd01c363de91008790bcbd8d0c') in 0.003201709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.227246 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Book_Shelf_02.prefab
+  artifactKey: Guid(ce3862e3983a1734db95822fff278903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Book_Shelf_02.prefab using Guid(ce3862e3983a1734db95822fff278903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21ab4e414e46a517e11a04e16b1c55b3') in 0.008766833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Book_Shelf_Empty_04.prefab
+  artifactKey: Guid(75457227eff1ac84da9f83fe13e59e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Book_Shelf_Empty_04.prefab using Guid(75457227eff1ac84da9f83fe13e59e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '756dee472f68bd8422d03b35a4a58491') in 0.003781209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Book_Shelf_Empty_02.prefab
+  artifactKey: Guid(20c77f184343d864d980eaa9f87d6f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Book_Shelf_Empty_02.prefab using Guid(20c77f184343d864d980eaa9f87d6f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eed03bb67f0937c580623bce2cba9424') in 0.003735041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Book_Shelf_04.prefab
+  artifactKey: Guid(aa73bfacdca0b1442be3b03a3c2927d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Book_Shelf_04.prefab using Guid(aa73bfacdca0b1442be3b03a3c2927d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6a6722770841e1c8c2028a3ad965bb9') in 0.003839625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Lab_Sink_01.prefab
+  artifactKey: Guid(1107554c9cfb5cd4b9da1debd5d8d9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Lab_Sink_01.prefab using Guid(1107554c9cfb5cd4b9da1debd5d8d9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67f441ab2cb6a03812b0aa3af87390a7') in 0.002766209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Book_Shelf_Empty_03.prefab
+  artifactKey: Guid(f51c01f44ce7faf4a863d364c0bd48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Furniture/PP_Book_Shelf_Empty_03.prefab using Guid(f51c01f44ce7faf4a863d364c0bd48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd9c521413b4f27b12b505215b5e66fb') in 0.004176084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.456012 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_01.prefab
+  artifactKey: Guid(bad7296e1e513f54086d93ebec2afb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_01.prefab using Guid(bad7296e1e513f54086d93ebec2afb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67eb72d40ad365b90aac93c5b7ed2f6d') in 0.008626875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Old_03.prefab
+  artifactKey: Guid(b8ab7f8697ae5df45b583a4a3ec0a7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Old_03.prefab using Guid(b8ab7f8697ae5df45b583a4a3ec0a7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8b0b2207f82ef5b0b85fdb1fb6e2812') in 0.003512333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Tiles_02.prefab
+  artifactKey: Guid(7b77f1a16e806a14087a33c589c24700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Tiles_02.prefab using Guid(7b77f1a16e806a14087a33c589c24700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6bf50214e6e32dc57bc2b6875746f39') in 0.003779791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Old_02.prefab
+  artifactKey: Guid(f6b3c0cb3e0cad1439e23e06c09a0e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Old_02.prefab using Guid(f6b3c0cb3e0cad1439e23e06c09a0e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73e96daf6bbb91b85c16a29127f68c19') in 0.003732958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Old_Door_01.prefab
+  artifactKey: Guid(43dfc017961c49d40afbb603dd66cd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Old_Door_01.prefab using Guid(43dfc017961c49d40afbb603dd66cd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82b8d9fad5411cce39d12910528edeb8') in 0.003831625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Window_01.prefab
+  artifactKey: Guid(03236a9f23e6f014982fe1a2c9d14a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Window_01.prefab using Guid(03236a9f23e6f014982fe1a2c9d14a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe16cefe6d42d258fd0a0755f3bc7a32') in 0.003441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Old_05.prefab
+  artifactKey: Guid(00c36242cc5a9bf4e8b4cc106d7729f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Old_05.prefab using Guid(00c36242cc5a9bf4e8b4cc106d7729f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5d7a77582369640562c8090cab12ebd') in 0.003370083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_04.prefab
+  artifactKey: Guid(81f5f72e039dfc14389e6a80ac9794ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_04.prefab using Guid(81f5f72e039dfc14389e6a80ac9794ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dd0fd1d1d803908b18572c1d0e2a893') in 0.003862875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Door_04.prefab
+  artifactKey: Guid(ade3cf2234b3ee34787b175cc6f69b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Door_04.prefab using Guid(ade3cf2234b3ee34787b175cc6f69b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6aa741338f1f8d7b74a0f68fbc2bebc8') in 0.003505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Tiles_Lab_02.prefab
+  artifactKey: Guid(5669f05a1a9f06d41b418f248c997551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Tiles_Lab_02.prefab using Guid(5669f05a1a9f06d41b418f248c997551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dc7a78dbe32ea819b9d5e140f217c65') in 0.003312583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Corner_01.prefab
+  artifactKey: Guid(3de44a7706c8de246a8764e223aed0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Corner_01.prefab using Guid(3de44a7706c8de246a8764e223aed0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a263231103d4c33d1ccc7e3b98573f2') in 0.003261083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Corner_05.prefab
+  artifactKey: Guid(b27ccb85eb493684abb432dfa90eb2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Ultimate Low Poly Nature Pack/Prefabs/Laboratory/Architecture/PP_Lab_Wall_Corner_05.prefab using Guid(b27ccb85eb493684abb432dfa90eb2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67d8cb8acd8c4af94d9aa9eb00993a27') in 0.003414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

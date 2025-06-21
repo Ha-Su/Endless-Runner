@@ -2,72 +2,75 @@ using UnityEngine;
 
 public class CharacterControllerUDP : MonoBehaviour
 {
-    public float laneOffset = 2f;        // Distance between center and side lanes on Z-axis
+    [Header("Lane Positions")]
+    public Vector3 leftLane  = new Vector3(-25f, 0.5f, -1f);
+    public Vector3 rightLane = new Vector3(-25f, 0.5f, -7.25f);
+
+    [Header("Movement Settings")]
     public float laneChangeSpeed = 5f;   // Speed of shifting between lanes
-    public float jumpForce = 5f;         // Jump height
-    public float gravity = -9.8f;
+    public float jumpForce        = 5f;  // Jump impulse
+    public float gravity          = -9.8f;
 
     private Vector3 velocity;
-    private bool isGrounded = true;
+    private bool    isGrounded = true;
     private Vector3 targetPosition;
 
     void Start()
     {
-        targetPosition = transform.position;
+        // Start in left lane
+        transform.position  = leftLane;
+        targetPosition      = leftLane;
     }
 
     void Update()
     {
+        // Read your inputs / UDP data
         string action = UDPReceiver.lastAction;
-        string side = UDPReceiver.lastSide;
+        string side   = UDPReceiver.lastSide;
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow)){
+        // Fallback to keyboard for testing
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
             side = "left";
-            Debug.Log("LEFT!");
-        }
-            
-        else if (Input.GetKeyDown(KeyCode.A))
-            side = "left";
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
             side = "right";
-        else if (Input.GetKeyDown(KeyCode.UpArrow))
-            side = "center";
 
         if (Input.GetKeyDown(KeyCode.Space))
             action = "jump";
 
-        // Move left/right (on Z-axis!)
-        if (side == "left" )
-            targetPosition.z = laneOffset;
+        // Set which lane we want to move to
+        if (side == "left")
+            targetPosition = leftLane;
         else if (side == "right")
-            targetPosition.z = -laneOffset;
-        else
-            targetPosition.z = 0f;
+            targetPosition = rightLane;
 
-        // Smoothly slide character to target Z-position
+        // Smoothly slide character toward the target lane
         transform.position = Vector3.MoveTowards(
             transform.position,
-            new Vector3(transform.position.x, transform.position.y, targetPosition.z),
+            new Vector3(targetPosition.x, transform.position.y, targetPosition.z),
             laneChangeSpeed * Time.deltaTime
         );
 
         // Jump logic
         if (isGrounded && action == "jump")
         {
-            velocity.y = jumpForce;
-            isGrounded = false;
+            velocity.y   = jumpForce;
+            isGrounded   = false;
         }
 
-        // Apply gravity
+        // Apply gravity and vertical movement
         if (!isGrounded)
         {
-            velocity.y += gravity * Time.deltaTime;
-            transform.position += new Vector3(0, velocity.y * Time.deltaTime, 0);
+            velocity.y   += gravity * Time.deltaTime;
+            transform.position += new Vector3(0f, velocity.y * Time.deltaTime, 0f);
 
-            float groundY = 0.5f;
-            if (transform.position.y <= groundY)
+            // Simple ground check at y = 0.5
+            if (transform.position.y <= 0.5f)
             {
-                transform.position = new Vector3(transform.position.x, groundY, transform.position.z);
+                transform.position = new Vector3(
+                    transform.position.x,
+                    0.5f,
+                    transform.position.z
+                );
                 velocity.y = 0f;
                 isGrounded = true;
             }
