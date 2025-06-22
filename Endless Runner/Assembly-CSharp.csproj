@@ -48,13 +48,14 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.1.1f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/ScoreManager.cs" />
-    <Compile Include="Assets/SectionTrigger.cs" />
-    <Compile Include="Assets/MoveRoad.cs" />
-    <Compile Include="Assets/UDPReceiver.cs" />
-    <Compile Include="Assets/PauseManager.cs" />
-    <Compile Include="Assets/MovementUDP.cs" />
-    <Compile Include="Assets/GameOverManager.cs" />
+    <Compile Include="Assets/Scripts/CalibrationManager.cs" />
+    <Compile Include="Assets/Scripts/MovementUDP.cs" />
+    <Compile Include="Assets/Scripts/PauseManager.cs" />
+    <Compile Include="Assets/Scripts/UDPReceiver.cs" />
+    <Compile Include="Assets/Scripts/MoveRoad.cs" />
+    <Compile Include="Assets/Scripts/ScoreManager.cs" />
+    <Compile Include="Assets/Scripts/SectionTrigger.cs" />
+    <Compile Include="Assets/Scripts/PythonLauncher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/SimplePixelUI/fonts/Font2/license.txt" />
