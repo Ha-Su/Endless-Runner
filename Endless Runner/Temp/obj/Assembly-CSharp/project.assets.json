@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "Mediapipe.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Mediapipe.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mediapipe.Runtime.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Mediapipe.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Mediapipe.Runtime.csproj",
+      "msbuildProject": "Mediapipe.Runtime.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "Mediapipe.Runtime >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/harlandi/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/harlandi/Documents/GamePrj/Endless Runner/Mediapipe.Runtime.csproj": {
+              "projectPath": "/Users/harlandi/Documents/GamePrj/Endless Runner/Mediapipe.Runtime.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

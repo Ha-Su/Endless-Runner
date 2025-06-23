@@ -4,54 +4,66 @@ using UnityEngine.SceneManagement;
 public class PauseManager : MonoBehaviour
 {
     [Header("UI")]
-    public GameObject pauseMenuUI;    // Assign your Pause Menu Canvas here
+    public GameObject pauseMenuUI;    
+    public GameObject gameOverCanvas;   
+
+    [Header("Scenes")]
+    public string calibrationSceneName = "Calibrate"; 
 
     bool isPaused = false;
+    bool prevPray = false;
 
     void Update()
     {
-        // Toggle pause on Escape (or whatever key you like)
+        // Don’t allow pause/restart once Game Over is showing
+        if (gameOverCanvas != null && gameOverCanvas.activeSelf)
+            return;
+
+        // Toggle pause on Escape
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused) Resume();
             else          Pause();
         }
 
-        // Optional: allow quick restart with R
+        // Quick restart with R
         if (Input.GetKeyDown(KeyCode.R))
-        {
             ResetLevel();
-        }
+
+        // Restart via pray gesture
+        bool nowPray = UDPReceiver.lastAction == "praying";
+        if (nowPray && !prevPray)
+            ResetLevel();
+        prevPray = nowPray;
     }
 
-    // Freeze time & show menu
     public void Pause()
     {
         pauseMenuUI.SetActive(true);
-        Time.timeScale = 0f;    // stops Update(), physics, animations, etc.
+        Time.timeScale = 0f;
         isPaused = true;
-        // Optional: unlock cursor
-        Cursor.visible = true;
+        Cursor.visible   = true;
         Cursor.lockState = CursorLockMode.None;
     }
 
-    // Unfreeze & hide menu
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
-        // Optional: re-lock cursor if you're using one
-        Cursor.visible = false;
+        Cursor.visible   = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    // Reloads the active scene
     public void ResetLevel()
     {
-        // Make sure timeScale is back to normal
         Time.timeScale = 1f;
         Scene current = SceneManager.GetActiveScene();
         SceneManager.LoadScene(current.buildIndex);
+    }
+    public void ReturnToCalibrate()
+    {
+        Time.timeScale = 1f;  
+        SceneManager.LoadScene(calibrationSceneName);
     }
 }

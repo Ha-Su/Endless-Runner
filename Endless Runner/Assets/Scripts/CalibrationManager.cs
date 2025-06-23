@@ -5,64 +5,78 @@ using System.Collections;
 
 public class CalibrationManager : MonoBehaviour
 {
-    [Header("UI References")]
+    [Header("Panels")]
+    public GameObject launchingPanel;   // cover screen with “Launching…” text
+    public GameObject tutorialPanel;    // your existing tutorial UI
+
+    [Header("Tutorial UI References (inside TutorialPanel)")]
     public Text  titleText;
     public Text  leftCounterText;
     public Text  rightCounterText;
-
-    [Header("Jump Counter UI")]
-    public GameObject jumpCounterContainer;   // the Image container
-    public Text       jumpCounterValueText;   // the "0 / 5" Text inside it
-
-    public Text instructionText;
+    public GameObject jumpCounterContainer;
+    public Text  jumpCounterValueText;
+    public Text  instructionText;
 
     [Header("Settings")]
-    public int   targetCount       = 5;
-    public float startHoldSeconds  = 3f;
-    public string gameSceneName    = "Game";
+    public int   targetCount      = 5;
+    public float startHoldSeconds = 3f;
+    public string gameSceneName   = "Game";
 
-    int leftCount   = 0;
-    int rightCount  = 0;
-    int jumpCount   = 0;
+    int leftCount  = 0;
+    int rightCount = 0;
+    int jumpCount  = 0;
 
-    string prevSide   = "";
-    string prevJump   = "";
+    string prevSide = "";
+    string prevJump = "";
 
-    enum State { Sides, Jump, ReadyToStart, CountingDown }
-    State state = State.Sides;
+    enum State { Launching, Sides, Jump, ReadyToStart, CountingDown }
+    State state = State.Launching;
 
     void Start()
     {
-        titleText.text        = "LET’S CALIBRATE YOUR MOVEMENTS!";
-        leftCounterText.text  = $"0 / {targetCount}";
-        rightCounterText.text = $"0 / {targetCount}";
-
-        jumpCounterContainer.SetActive(false);
-        instructionText.text = "Move Left and Right to fill both bars.";
+        // start in Launching
+        launchingPanel.SetActive(true);
+        tutorialPanel.SetActive(false);
     }
 
     void Update()
     {
-        string side   = UDPReceiver.lastSide;    // "left"/"right"/"none"
-        string action = UDPReceiver.lastAction;  // "jump"/"stand"/"praying"/etc
-
         switch (state)
         {
+            case State.Launching:
+                // if Python explicitly sent calibrated OR
+                // if we've seen ANY movement packet yet, swap panels
+                if (UDPReceiver.isCalibrated || UDPReceiver.lastSide != "none")
+                {
+                    launchingPanel.SetActive(false);
+                    tutorialPanel.SetActive(true);
+
+                    // init the side‐tutorial
+                    leftCount = rightCount = 0;
+                    prevSide = "";
+                    leftCounterText.text  = $"0 / {targetCount}";
+                    rightCounterText.text = $"0 / {targetCount}";
+
+                    titleText.text       = "LET’S CALIBRATE YOUR MOVEMENTS!";
+                    instructionText.text = "Move Left and Right to fill both bars.";
+
+                    state = State.Sides;
+                }
+                break;
+
             case State.Sides:
-                HandleSideTutorial(side);
+                HandleSideTutorial(UDPReceiver.lastSide);
                 break;
 
             case State.Jump:
-                HandleJumpTutorial(action);
+                HandleJumpTutorial(UDPReceiver.lastAction);
                 break;
 
             case State.ReadyToStart:
-                // Show the hold-hands prompt
                 instructionText.text =
                     "Good! Hold your hands together in front of your chest\nfor 3 seconds to start the game";
 
-                // As soon as we see the "praying" action, start the countdown
-                if (action == "praying")
+                if (UDPReceiver.lastAction == "praying")
                 {
                     StartCoroutine(StartGameCountdown());
                     state = State.CountingDown;
@@ -70,7 +84,7 @@ public class CalibrationManager : MonoBehaviour
                 break;
 
             case State.CountingDown:
-                // now in coroutine, nothing here
+                // nothing here; coroutine runs
                 break;
         }
     }
@@ -89,9 +103,7 @@ public class CalibrationManager : MonoBehaviour
 
         if (leftCount >= targetCount && rightCount >= targetCount)
         {
-            // transition to Jump tutorial
             state = State.Jump;
-
             leftCounterText.gameObject.SetActive(false);
             rightCounterText.gameObject.SetActive(false);
 
@@ -117,7 +129,6 @@ public class CalibrationManager : MonoBehaviour
         {
             state = State.ReadyToStart;
             titleText.text = "ALL SET!";
-
             jumpCounterContainer.SetActive(false);
         }
     }
