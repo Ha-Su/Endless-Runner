@@ -1,0 +1,10 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="PauseManager">
+			<method name="ResetLevel"/>
+			<method name="ResetLevel"/>
+			<method name="Resume"/>
+			<method name="ReturnToCalibrate"/>
+		</type>
+	</assembly>
+</linker>

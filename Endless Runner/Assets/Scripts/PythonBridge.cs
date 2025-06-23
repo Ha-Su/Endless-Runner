@@ -4,28 +4,44 @@ using System.IO;
 
 public class PythonLauncher : MonoBehaviour
 {
-    Process pyProcess;
+    private static bool _launched = false;
+    private Process      _pyProc;
 
     void Awake()
     {
-        // Build path to the exe in the application folder
-        string exeName = "moveDetectioncvZone";
-        string exePath = Path.Combine(Application.dataPath, "../" + exeName);
+        if (_launched)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        _launched = true;
+        DontDestroyOnLoad(gameObject);
 
-        // If you want to debug path issues:
-            UnityEngine.Debug.Log("Looking for Python exe at: " + exePath);
+        string exeName = "moveDetectioncvZone";
+
+        // Application.dataPath == ".../Endless Running.app/Contents"
+        // Point into Contents/MacOS/exeName
+        string exePath = Path.Combine(Application.dataPath, "MacOS", exeName);
+
+        UnityEngine.Debug.Log($"[PythonLauncher] Looking for detector at: {exePath}");
+        if (!File.Exists(exePath))
+        {
+            UnityEngine.Debug.LogError($"[PythonLauncher] NOT FOUND: {exeName} at {exePath}");
+            return;
+        }
 
         var startInfo = new ProcessStartInfo {
-            FileName = exePath,
+            FileName        = exePath,
             UseShellExecute = false,
-            CreateNoWindow = true
+            CreateNoWindow  = true
         };
-        pyProcess = Process.Start(startInfo);
+        _pyProc = Process.Start(startInfo);
+        UnityEngine.Debug.Log("[PythonLauncher] Detector launched");
     }
 
     void OnApplicationQuit()
     {
-        if (pyProcess != null && !pyProcess.HasExited)
-            pyProcess.Kill();
+        if (_pyProc != null && !_pyProc.HasExited)
+            _pyProc.Kill();
     }
 }
